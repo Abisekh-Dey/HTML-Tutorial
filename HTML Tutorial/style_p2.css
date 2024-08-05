@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: rgb(0, 0, 53);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 900px;
+    height: 630px;
+    background-color: aliceblue;
+}
+h1{
+    height: 70px;
+    line-height: 4.5rem;
+    background-color: rgb(0, 0, 53);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.choices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 30px;
+    border-radius: 2rem;
+}
+.choice:hover{
+    opacity: 0.5;
+    background-color: rgb(0, 0, 0);
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5rem;
+    object-fit: cover;
+}
+.score-board{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 3px;
+}
+#user-score{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    border: 2px solid black;
+    line-height: 5rem;
+    margin: 5px;
+    border-radius: 1rem;
+}
+#comp-score{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    border: 2px solid black;
+    line-height: 5rem;
+    margin: 5px;
+    border-radius: 1rem;
+}
+.msg-cont{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+#msg{
+    width: 300px;
+    height: 60px;
+    line-height: 3.5rem;
+    background-color:darkslategrey;
+    color: rgb(0, 255, 213);
+    margin: 18px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 2rem;
+}
+#i1{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+#i1:hover{
+    opacity: 50%;
+    background-color: lightgray;
+}
+.sh{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sch-div{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 40px;
+    border-radius: 1.2rem;
+}
+#abtn{    
+    width: 320px;
+    background-color: yellow;
+    color: blue;
+    height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+.sch-div:hover{
+    opacity: 50%;
+    background-color: black;
+}

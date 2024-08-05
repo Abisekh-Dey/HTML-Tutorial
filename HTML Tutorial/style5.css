@@ -1,0 +1,33 @@
+#b1{
+    color: lightsalmon;
+    background-color: darkslategrey;
+    font-size: 20px;
+}
+#b2{
+    color: darkslateblue;
+    background-color: lightgoldenrodyellow;
+    font-size: 20px;
+}
+#nb1{
+    color: lightsalmon;
+    background-color: darkslategrey;
+    font-size: 20px;
+}
+#nb2{
+    color: darkslateblue;
+    background-color: lightgoldenrodyellow;
+    font-size: 20px;
+}
+.neb1{
+    color: lightsalmon;
+    background-color: darkslategrey;
+    font-size: 20px;
+}
+.neb2{
+    color: darkslateblue;
+    background-color: lightgoldenrodyellow;
+    font-size: 20px;
+}
+#p1{
+    font-size: 30px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <button id="b1" onclick="alert('Button is Clicked');console.log('Button is Clicked')">Click Me!</button><!--onclick event is used to do some work on single click of button-->
+    <!--If I Handle any event in html file this is called inline event handling but I can handle any event in js file also(Handling event in js file is the most prefered way)-->
+    <!--but if handle any event in html file and also handle the same event in js file then js file event handling will get the preference over html file event handling-->
+    <!--We can't handle same event twice in js file; if we do so The previous handled event will be overwritten by newly handled event-->
+    <br><!--This adds newline-->
+    <button id="b2" ondblclick="console.log('Button is Clicked 2 times')">Click Me 2 Times!</button><!--ondblclick event is used to do some work on double click of button-->
+    <div id="d1" onmouseover="console.log('Mouse is on the Div')"><!--onmouseover event is used to do some work when we put the cursor on the perticular element on which the event is attached with-->
+        This is a Div
+    </div>
+    <button id="b3"></button>
+    <div id="d2">
+        Abisekh Dey
+    </div>
+    <script src="script4.js"></script>
+</body>
+</html>

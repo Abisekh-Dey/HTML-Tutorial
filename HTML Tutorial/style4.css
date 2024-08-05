@@ -1,0 +1,10 @@
+#d1{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    color: darkslateblue;
+    background-color: lightcyan;
+    font-size: 30px;
+    margin: 5px;
+}

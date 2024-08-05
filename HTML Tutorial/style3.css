@@ -1,0 +1,12 @@
+.p1{
+    color: darkred;
+    background-color: lightcyan;
+    font-size: 40px;
+}
+.new_p1{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+}

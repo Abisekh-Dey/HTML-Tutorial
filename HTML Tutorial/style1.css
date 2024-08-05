@@ -1,0 +1,44 @@
+h1/*or i can write the unique Id name #Heading at the place of tag name h1;to add style in the elements of id*/{
+    color: blue;
+    background-color: yellow;
+
+}
+button{
+    background-color:lightgreen;
+}
+body{
+    background-color: darksalmon;
+}
+.Heading/*or i can write the unique class name .Heading at the place of tag name h4;to add style in the elements of class*/{
+    color:red;
+    background-color:skyblue;
+}
+#dividor1{/* Accessing div and their child elements through their id's; I used id name dividor1 because i changed the name div1 to dividor1 in the script1.js in line no 91*/
+    #head1{
+        color: darkorchid;
+        background-color: lightgray;
+    }
+    #Para1{
+        height: 50px;
+        width: 300px;
+        color: red;
+        background-color: skyblue;
+        text-align: center;
+        border: 1px solid black;
+        margin: 5px;
+    }
+}
+#div2{
+    h4{
+        color: blue;
+        background-color: yellow;
+    }
+    ul{
+        color: red;
+        background-color: lightcyan;
+    }
+}
+.header{
+    color:red;
+    background-color:skyblue;
+}
